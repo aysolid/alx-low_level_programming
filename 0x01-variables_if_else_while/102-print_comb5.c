@@ -1,22 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int i = 48, j = 48, k = 48, l = 49;
 while  (i < 58)
 {
-putchar(i);
-putchar(j);
-putchar(32);
-putchar(k);
-putchar(l);
+putchar(i, j, 32, k, l); /* putchar(j); putchar(32); putchar(k); putchar(l);*/
 if ((i == 57) && (j == 56) && (k == 57) && (l == 57))
 {
 putchar('\n');
@@ -39,7 +34,7 @@ k = i + 1, l = 48;
 }
 else if (j == 57)
 {
-  j = 48, l = 49, k = ++i;
+j = 48, l = 49, k = ++i;
 }
 }
 else if (l < 57)

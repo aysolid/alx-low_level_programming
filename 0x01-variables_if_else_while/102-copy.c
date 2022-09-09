@@ -1,16 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - Entry point * Return: Always 0 (Success)
  */
 int main(void)
 {
 int i = 48, j = 48, k = 48, l = 49;
-while  ((i < 58))
+while  (i < 58)
 {
 putchar(i);
 putchar(j);
@@ -30,20 +28,16 @@ if ((k == 57) && (l == 57))
 {
 if (j < 56)
 {
-l = ++j + 1;
-k = i;
+l = ++j + 1, k = i;
 }
 else if (j == 56)
 {
 j++;
-k = i + 1;
-l = 48;
+k = i + 1, l = 48;
 }
 else if (j == 57)
 {
-j = 48;
-l = 49;
-k = ++i;
+  j = 48, l = 49, k = ++i;
 }
 }
 else if (l < 57)
@@ -52,7 +46,7 @@ l++;
 }
 else
 {
-l = 48; k++;
+l = 48, k++;
 }
 }
 }
