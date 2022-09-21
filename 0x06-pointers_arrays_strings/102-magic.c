@@ -1,9 +1,4 @@
 #include "main.h"
-/**
- * main - magic code
- * short description for the code
- * Return: 0
- */
 
 int main(void)
 {
