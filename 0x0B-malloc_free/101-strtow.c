@@ -15,8 +15,7 @@ while (*(str + i))
 if (*(str + i) != ' ')
 {
 if (*(str + i + 1) == ' ' || *(str + i + 1) == 0)
-count += 1;
-}
+count += 1; }
 i++; }
 if (count == 0)
 return (NULL);
